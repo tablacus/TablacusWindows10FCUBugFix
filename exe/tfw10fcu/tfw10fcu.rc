@@ -1,0 +1,36 @@
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+#include "resource.h"
+
+//
+// Menu resources
+//
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+IDC_MENU    MENU
+{
+    POPUP "&File"
+    {
+        MENUITEM "E&xit", IDM_EXIT
+    }
+}
+
+//
+// String Table resources
+//
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+{
+    IDC_TFW10FCU                  "tfw10fcu"
+    IDS_APP_TITLE                 "tfw10fcu"
+}
+
+//
+// Icon resources
+//
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+IDI_SMALL      ICON           "icon16.ico"
+
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+IDI_BIG        ICON           "icon48.ico"
